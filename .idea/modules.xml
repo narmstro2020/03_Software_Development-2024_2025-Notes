@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/25_Classes and Objects/25_Classes and Objects.iml" filepath="$PROJECT_DIR$/25_Classes and Objects/25_Classes and Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26_POJO_and_Records/26_POJO_and_Records.iml" filepath="$PROJECT_DIR$/26_POJO_and_Records/26_POJO_and_Records.iml" />
+      <module fileurl="file://$PROJECT_DIR$/27_Overloading_Objects/27_Overloading_Objects.iml" filepath="$PROJECT_DIR$/27_Overloading_Objects/27_Overloading_Objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solutions.iml" filepath="$PROJECT_DIR$/Solutions.iml" />
     </modules>
   </component>
