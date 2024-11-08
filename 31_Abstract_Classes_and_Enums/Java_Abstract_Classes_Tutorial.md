@@ -50,83 +50,8 @@ public class Main {
 }
 ```
 
-**Explanation**: In the example above, `Animal` is an abstract class with an abstract method `makeSound()` and a concrete method `eat()`. The `Dog` class extends `Animal` and provides an implementation for `makeSound()`.
 
-## 4. Assignment: Animal Simulation
-
-**Task**: Create an abstract class called `Vehicle` with the following:
-- An abstract method `move()` that will be implemented differently by subclasses.
-- A concrete method `startEngine()` that prints "The engine starts."
-
-Create three subclasses:
-- `Car` that prints "The car drives on the road."
-- `Boat` that prints "The boat sails on water."
-- `Plane` that prints "The plane flies in the sky."
-
-In your `Main` class, create an array of `Vehicle` objects containing one instance of each subclass and call `move()` and `startEngine()` for each object.
-
-**Code Template**:
-```java
-abstract class Vehicle {
-    public abstract void move();
-    
-    public void startEngine() {
-        System.out.println("The engine starts.");
-    }
-}
-
-class Car extends Vehicle {
-    @Override
-    public void move() {
-        System.out.println("The car drives on the road.");
-    }
-}
-
-class Boat extends Vehicle {
-    @Override
-    public void move() {
-        System.out.println("The boat sails on water.");
-    }
-}
-
-class Plane extends Vehicle {
-    @Override
-    public void move() {
-        System.out.println("The plane flies in the sky.");
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Vehicle[] vehicles = {new Car(), new Boat(), new Plane()};
-        
-        for (Vehicle v : vehicles) {
-            v.startEngine();
-            v.move();
-        }
-    }
-}
-```
-
-**Expected Output**:
-```
-The engine starts.
-The car drives on the road.
-The engine starts.
-The boat sails on water.
-The engine starts.
-The plane flies in the sky.
-```
-
-## 5. Assignment Solution Explanation
-In the assignment:
-- The `Vehicle` class is an abstract class with an abstract method `move()` and a concrete method `startEngine()`.
-- The `Car`, `Boat`, and `Plane` classes extend `Vehicle` and provide their own implementations for `move()`.
-- In the `Main` class, an array of `Vehicle` objects is created, and both methods are called for each object, showcasing polymorphism.
-
-This example helps understand how abstract classes can provide a foundation for multiple subclasses with shared and unique behaviors.
-
-## 6. When to Use Abstract Classes
+## 4. When to Use Abstract Classes
 
 Abstract classes are ideal when:
 
