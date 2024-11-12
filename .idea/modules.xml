@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/27_Overloading_Objects/27_Overloading_Objects.iml" filepath="$PROJECT_DIR$/27_Overloading_Objects/27_Overloading_Objects.iml" />
       <module fileurl="file://$PROJECT_DIR$/30_Inheritance/30_Inheritance.iml" filepath="$PROJECT_DIR$/30_Inheritance/30_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/31_Abstract_Classes_and_Enums/31_Abstract_Classes_and_Enums.iml" filepath="$PROJECT_DIR$/31_Abstract_Classes_and_Enums/31_Abstract_Classes_and_Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32_Interfaces/32_Interfaces.iml" filepath="$PROJECT_DIR$/32_Interfaces/32_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solutions.iml" filepath="$PROJECT_DIR$/Solutions.iml" />
     </modules>
   </component>
