@@ -62,52 +62,22 @@ public interface Payment {
 
 ### Step 2: Implement the `CreditCardPayment` class
 ```java
-public class CreditCardPayment implements Payment {
-    @Override
-    public void processPayment(double amount) {
-        System.out.println("Processing credit card payment of $" + amount);
-    }
-}
+
 ```
 
 ### Step 3: Implement the `PayPalPayment` class
 ```java
-public class PayPalPayment implements Payment {
-    @Override
-    public void processPayment(double amount) {
-        System.out.println("Processing PayPal payment of $" + amount);
-    }
-}
+
 ```
 
 ### Step 4: Implement the `BankTransferPayment` class
 ```java
-public class BankTransferPayment implements Payment {
-    @Override
-    public void processPayment(double amount) {
-        System.out.println("Processing bank transfer payment of $" + amount);
-    }
-}
+
 ```
 
 ### Step 5: Create a `PaymentProcessor` class
 ```java
-public class PaymentProcessor {
-    public void processPayment(Payment paymentMethod, double amount) {
-        paymentMethod.processPayment(amount);
-    }
 
-    public static void main(String[] args) {
-        Payment creditCard = new CreditCardPayment();
-        Payment payPal = new PayPalPayment();
-        Payment bankTransfer = new BankTransferPayment();
-
-        PaymentProcessor processor = new PaymentProcessor();
-        processor.processPayment(creditCard, 150.00);
-        processor.processPayment(payPal, 200.50);
-        processor.processPayment(bankTransfer, 1000.00);
-    }
-}
 ```
 
 ### Expected Output
